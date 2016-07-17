@@ -13,3 +13,6 @@ img{display: block;border:none;}
 body{
 	/*height:100000px;*/
 }
+.row{
+	margin-right: 0;
+}
