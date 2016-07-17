@@ -25,5 +25,8 @@ body{
 }
 
 .content{
-	
+	/*height:100000px;*/
+}
+.row{
+	margin-right: 0;
 }

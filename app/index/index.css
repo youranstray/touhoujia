@@ -93,6 +93,38 @@
 	overflow: hidden;
 	position: relative;
 }
+.bannerleft{
+	width: 2%;
+	height:5%;
+	background:#d0d6da;
+	position: absolute;
+	left:0;
+	top:47.5%;
+	cursor: pointer;
+}
+.bannerleft div{
+	width:32%;
+	height:63%;
+	margin: 20% auto;
+	background:url(images/bannerleft.png) no-repeat;
+	background-size: 100% 100%;
+}
+.bannerright{
+	width: 2%;
+	height:5%;
+	background:#d0d6da;
+	position: absolute;
+	right:0;
+	top:47.5%;
+	cursor: pointer;
+}
+.bannerright div{
+	width:32%;
+	height:63%;
+	margin: 20% auto;
+	background:url(images/bannerright.png) no-repeat;
+	background-size: 100% 100%;
+}
 .banner{
 	width:200%;
 	z-index: 1;
@@ -344,4 +376,70 @@
 }
 .footer ul li a{
 	color:#333333;
+}
+.leftgo{
+	width:2%;
+	height:4.5rem;
+	position: absolute;
+	top:41%;
+	left:0.5rem;
+	background:url(images/toleft.png) no-repeat;
+	    background-size: 100% 100%;
+}
+.rightgo{
+	width:2%;
+	height:4.5rem;
+	position: absolute;
+	top:41%;
+	right:0rem;
+	background:url(images/toright.png) no-repeat;
+	    background-size: 100% 100%;
+}
+.saoma{
+	width:100%;
+	background-color: #323a47;
+	margin-top: 4rem;
+}
+.footer_saoma{
+	width:65%;
+	margin: 0 auto;
+	padding: 1rem 0;
+	color:#fff;
+}
+.footer_saoma .col-md-4{
+	width:50%;
+	text-align: center;
+	padding-right: 0;
+}
+.footer_saoma img{
+	width:20%;
+	padding-left: 0;
+}
+.footer_saoma img.erweima{
+	margin-left: -2rem;
+}
+.footer_saoma img.erweima1{
+	margin-left: 2rem;
+}
+.saoma ul{
+	width:37%;
+	margin: 1rem auto 0;
+	padding-bottom: 1rem;
+}
+.saoma ul li{
+	float: left;
+	border-right: 1px solid #fff;
+	padding-right: 1rem;
+	height:1.5rem;
+}
+.saoma ul li a{
+	color:#fff;
+}
+.footer_footer{
+	line-height: 3.5rem;
+	width:100%;
+	background-color: #1e242e;
+	text-align: center;
+	color:#757374;
+	font-size: 1.2rem;
 }
