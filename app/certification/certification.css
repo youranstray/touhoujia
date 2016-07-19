@@ -37,6 +37,7 @@
 	line-height: 2rem;
 	font-size: 1.5rem;
 	cursor: pointer;
+	color: #333333;
 }
 .ZJ_width ul li.ZJ_border{
 	border-bottom: none;
@@ -44,11 +45,41 @@
 .jigoulist{
 	margin-top: 3rem;
 }
-#div img{
+.img1{
 	padding-left: 0;
+	width:100%;
 }
 #div h4{
 	margin-top: 0;
 	font-size: 1.4rem;
 	/*font-weight: bold;*/
+	color:#000;
+}
+.imgdaka{
+	position: relative;
+}
+.img_shang{
+	display: block;
+	width:40%;
+	position: absolute;
+	right:-0.7%;
+	bottom: -5%;
+}
+.jinyan{
+	font-size: 1rem;
+	color: #666666;
+}
+.jianli div{
+	margin-top: 0.3rem;
+	color:#18bd9b;
+}
+.jianli div a{
+	color:#18bd9b;
+}
+#pagination > li > span{
+	border:none;
+	color:#7f7c7c;
+}
+#pagination > .active > span{
+	background:#18bd9b;
 }

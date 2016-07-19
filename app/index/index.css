@@ -167,7 +167,7 @@
 	background-size: 100% 100%;
 	height:2.4rem;
 	margin-left: 1rem;
-	margin-top: -0.5rem;
+	/*margin-top: -0.5rem;*/
 	width:2.4rem;
 }
 .zhuanjia{
@@ -175,7 +175,7 @@
 	background-size: 100% 100%;
 	height:2.4rem;
 	margin-left: 1rem;
-	margin-top: -0.5rem;
+	/*margin-top: -0.5rem;*/
 	width:2.4rem;
 }
 .border-left{
@@ -204,8 +204,6 @@
 	background:url(images/xmyuan.png) no-repeat;
 	background-size: 100% 100%;
 	height:2.4rem;
-	margin-left: 1rem;
-	margin-top: -0.5rem;
 	width:2.8rem;
 }
 .jingtuijain{
@@ -216,7 +214,8 @@
 .tuijian_more{
 	text-align: right;
 	color:#666666;
-	font-size: 1.6rem;
+	font-size: 1rem;
+	margin-right: 1.4%;
 }
 .zhenge{
 /*	width:30%;*/
@@ -375,7 +374,7 @@
 	margin:2rem auto 0;
 }
 .footer ul li{
-	margin:0rem 0 0 2.5%;
+	margin:0rem 0 0 1.5%;
 }
 .footer ul li a{
 	color:#333333;
