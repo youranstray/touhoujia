@@ -31,7 +31,18 @@
 	box-shadow: none;
 	border-radius: 0px;
 }
-.login-form .btn{
+.btn.normal,
+.btn.normal:hover,
+.btn.normal:focus,
+.btn.normal:active{
+	color: #000000;
+	border-radius: 0px;
+	background: #ffffff;
+}
+.btn.selected,
+.btn.selected:hover,
+.btn.selected:focus,
+.btn.selected:active{
 	color: #ffffff;
 	border-radius: 0px;
 	background: #019836;
@@ -41,5 +52,12 @@
 	height: 48px;
 	padding: 15px;
 	content: url(img/wcIcon.png);
+	cursor: pointer;
+}
+.third .qr-code::after{
+	width: 137px;
+	height: 135px;
+	/*padding: -15px;*/
+	content: url(img/qr-code.png);
 	cursor: pointer;
 }
