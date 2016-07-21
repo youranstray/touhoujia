@@ -6,7 +6,7 @@
 	width: 25%;
 	float: right;
 	background:url(images/sousuo.png) no-repeat;
-	background-size: 100%;
+	background-size: 100% 100%;
 }
 .sousuo span{
 	border-right:none;
@@ -15,7 +15,7 @@
 .sousuo input{
 	border-left:none;
 	background:url(images/sousuo.png) no-repeat;
-	background-size: 100%;
+	background-size: 100% 100%;
 }
 .zhuangjia h1{
 	text-align: center;
@@ -79,6 +79,7 @@
 #pagination > li > span{
 	border:none;
 	color:#7f7c7c;
+	margin-left: 1rem;
 }
 #pagination > .active > span{
 	background:#18bd9b;

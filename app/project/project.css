@@ -1,0 +1,106 @@
+.content_nav{
+	width:70%;
+	margin: 0 auto;
+	padding-left: 10%;
+}
+.content_nav li.row{
+	margin-top: .4rem;
+}
+.nva_hye{
+	width:10%;
+	font-size: 1rem;
+}
+.nav_hangye{
+	padding:0;
+}
+.nav_hangye li{
+	float: left;
+	margin-left: 2%;
+	cursor: pointer;
+	font-size: 1rem;
+	color: #333333;
+}
+.nav_hangye li.active{
+	color: #18bd9b;
+}
+.sousuo div{
+	width: 25%;
+	float: right;
+	background:url(images/sousuo.png) no-repeat;
+	background-size: 100% 100%;
+}
+.sousuo span{
+	border-right:none;
+	background:none;
+}
+.sousuo input{
+	border-left:none;
+	background:url(images/sousuo.png) no-repeat;
+	background-size: 100% 100%;
+}
+.content_tab{
+	width: 70%;
+	margin: 2rem auto 0;
+}
+.content_tab ul li{
+	float: left;
+	width:17%;
+	height: 1.8rem;
+	line-height: 1.8rem;
+	text-align: center;
+	border:1px solid #ccc;
+	margin-left: -1px;
+	color: #333;
+}
+.content_tab ul li.borderBt{
+	border-bottom: none;	
+}
+.aLi_width{
+	width:70%;
+	margin: 2rem auto;
+}
+.img_left img{
+	width:100%;
+	/*height:5rem;*/
+}
+.banlv{
+	margin: 0;
+	font-size: 1.5rem;
+	color:#666666;
+}
+.peiban{
+	margin: 0.5rem 0 0.5rem;
+	color:#666666;
+}
+.cilun{
+	padding: 0;
+	color:#666666;
+}
+.color{
+	color: #666;
+}
+.btn{
+	display: block;
+	width:15%;
+	height:2rem;
+	line-height: 1rem;
+	color: #fff;
+	background-color: #18bd9b;
+	border-radius: 1rem;
+}
+.aLi_width li{
+	margin-top: 2rem;
+
+}
+#pagination > li > span{
+	border:none;
+	color:#7f7c7c;
+	margin-left: 1rem;
+}
+#pagination > .active > span{
+	background:#18bd9b;
+}
+.nav_width{
+	width:70%;
+	margin: 0 auto;
+}
